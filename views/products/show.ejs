@@ -17,9 +17,7 @@
             text-align: center;
         }
 
-        body{
-            background-color: rgb(112, 69, 155);
-        }
+       
         span{
             font-size: 25px;
             font-weight: bold;
@@ -32,10 +30,9 @@
 
     <div class="container ">
         <div class="row justify-content-center mt-5 my-auto">
-            <div class=" col-11 col-md-9 col-lg-6 bg-white text-dark p-4 mt-5" style="border-radius: 20px;">
-                <h1 class="text-center">Quotes of the day</h1>
-                <p class=" text-center mt-4 ms-2"><span>"</span>  <%= product.quote %> <span>"</span> </p>
-                <h4 class="text-end mt-4">- <%= product.author %></h4>
+            <div class=" col-11 col-md-9 border border-danger col-lg-6 bg-white text-dark p-4 mt-5" style="border-radius: 20px;">
+                <h4 class="text-center mt-4"> <%= product.author %></h4>
+                <p class=" text-center mt-4 ms-2">  <%= product.quote %>  </p>
                 </div>
             </div>
         </div>
