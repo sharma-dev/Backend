@@ -19,14 +19,14 @@
             <% for (let item of products) { %>
                 <div class="col-md-1"></div>
                 <div class="col-md-10" >
-                    <div class="bg-info mb-4 p-3">
+                    <div class="bg-warning mb-4 p-3" style="border-radius: 15px;">
                         <div class="row">
                             <div class="col-md-10 "  >
                                 <h4 class="text1 mb-2" style="font-weight: 200;"> <%= item.quote %></h4>
                                 <p class="text1 mb-2">~ <%= item.author %></p>
                             </div>
                             <div class="col-md-2">
-                                <a href="/products/<%= item._id %>" class="btn btn-success  mt-3" style="background-color: rgb(64, 156, 64);" >View Quote</a>
+                                <a href="/products/<%= item._id %>" class="btn btn-primary bg-primaty  mt-3" >View Quote</a>
                             </div>
                         </div>
                     </div>

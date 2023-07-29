@@ -14,7 +14,7 @@
     <%- include('../partials/navbar') %>
 
     <div class="container mt-5 d-flex justify-content-center">
-      <div class="custom-form-container  border border-danger col-md-6 p-4 bg-white text-dark" >
+      <div class="custom-form-container bg-success  border border-danger col-md-6 p-4 text-dark" style="border-radius: 14px;" >
         <h3 class="mb-4 text-center">New Quote</h3>
         <form action="/products" method="POST">
           <label for="author" class="form-label">Author</label>
@@ -23,7 +23,7 @@
                   <label for="quote" class="form-label mt-2" >Quotes:</label>
                   <textarea  id="quote" cols="30" rows="3" name="quote" class="form-control mt-1" ></textarea>
       
-                  <button type="submit" class="btn btn-primary mt-3 ">Add Quotes</button>
+                  <button type="submit" class="btn btn-warning mt-3 ">Add Quotes</button>
         </form>
       </div>
     </div>
